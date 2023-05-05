@@ -1,12 +1,13 @@
 package com.example.CrudSpringBoot;
 
-		import org.springframework.boot.SpringApplication;
-		import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class CrudSpringBootApplication {
 
 	public static void main(String[] args) {
+		System.out.println("hola Mundo");
 		SpringApplication.run(CrudSpringBootApplication.class, args);
 	}
 
